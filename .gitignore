@@ -25,3 +25,15 @@ TestResults.xml
 .env
 *.log
 logs/
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment files
+.env.*
+.env.deploy
